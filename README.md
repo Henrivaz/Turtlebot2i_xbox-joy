@@ -1,2 +1,2 @@
 # Turtlebot2i_xbox-joy
-This repository was created for to use turtlebot2i with xbox joystick.
+This repository was created for to use turtlebot2i with xbox joystick, in ubuntu 16.04 with ros kinetic. Para conseguir fazer o turtle andar com o controle é preciso conectar o joystick e configurar o launch, com isso deve procurar a serial port em que o controle estará conectado e alterá-la no pacote minimal do turtlebot. Você encontrará uma mensagem em vermelho, quando iniciar o  launch teleop, mas não se preocupe é apenas um aviso que não influencia. Então primeiro voce pode estar iniciando a base com o comando **roslaunch turtlebot_bringup minimal.launch** e em seguida inicializar o comando  **roslaunch turtlebot_teleop xbox360_teleop.launch**. 
